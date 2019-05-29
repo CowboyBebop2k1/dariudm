@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+	.main .wrap {
+		display: block;
+	}
+
+	.menu, .content-obertka {
+		float: unset;
+		width: unset;
+	}
+
+	.blocks-3 {
+		width: 100%;
+	}
+
+	.vizitka, .vizitka b {
+		text-align: center;
+	}
+
+	.vizitka img {
+		float: unset;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	font-family: Tahoma;
+	display: grid;
+	color: #000;
+}
+
+h1, h2 {
+	margin-bottom: 15px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul li {
+	padding-bottom: 10px;
+	list-style: none;
+}
+
+ul li:last-child {
+	padding-bottom: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.wrap {
+	max-width: 1582px;
+	padding: 0 5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+section, footer, header, nav {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.list-inline {
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.list-inline li {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.list-inline li:first-child {
+	padding-left: 6px;
+}
+
+.list-inline li a {
+	text-decoration: none;
+}
+
+.list-inline li a:hover {
+	text-decoration: underline;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+	background: url('../assets/zemelniyuchastok.jpeg') center center;
+	background-size: cover;
+}
+
+header .wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px
+}
+
+header a {
+	font-size: 30px;
+}
+
+.main {
+	min-height: calc(82vh - 59px);
+}
+
+.main .wrap {
+	display: flex;
+	align-items: stretch;
+}
+
+.menu, .content, .vizitka, .news {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 15px 1px rgba(4, 255, 0, 0.5);
+	border-radius: 9px;
+    padding: 10px;
+}
+
+.menu {
+	float: left;
+	width: 10%;
+	text-align: center;
+}
+
+.menu a {
+	color: #000;
+}
+
+.content-obertka {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.doublecont {
+	display: flex; 
+	align-items: stretch; 
+	justify-content: space-between;
+}
+
+.content-65 {
+	width: 65%;
+	margin-left: unset;
+	margin-right: unset;
+}
+
+.content-25 {
+	width: 25%;
+	margin-left: unset;
+	margin-right: unset;
+}
+
+.content h1, h2, h3 {
+	text-align: center;
+	margin-bottom: 15px;
+	color: #000;
+}
+
+.blocks-3 {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.blocks-3 img {
+	margin: 0 auto;
+	border: 7px solid #fff;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.cont {
+	display: flex;
+	justify-content: space-between;
+}
+
+.vizitka {
+	width: 25%;
+}
+
+.vizitka img {
+	margin: 0 auto;
+}
+
+.vizitka a {
+	color: #000;
+}
+
+.vizitka b {
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.news {
+	overflow: hidden;
+	padding: 20px;
+	margin-bottom: 30px;
+	background: #fff;
+	color: #000;
+	border-radius: 9px;
+}
+
+.news:last-child {
+	margin-bottom: 10px;
+}
+
+.news h4, .date {
+	margin-bottom: 10px;
+}
+
+.news p {
+	margin-bottom: 30px;
+}
+
+.news-foot {
+	margin-bottom: 80px;
+}
+
+.magic-helper {
+	margin-bottom: 80px;
+}
+
+.magic-helper:first-child {
+	margin-bottom: 30px;
+}
+
+.comment, .fir, .magic-helper p {
+	float: left;
+}
+
+.author, .sec {
+	float: right;
+}
+
+.comment-block {
+	overflow: hidden;
+	border: 1px solid;
+	margin-bottom: 10px;
+	padding: 15px;
+	color: #000;
+}
+
+.comment-block p {
+	margin-bottom: 0;
+}
+
+footer {
+	box-shadow: 0 0 15px 1px rgba(4, 255, 0, 0.5);
+}
